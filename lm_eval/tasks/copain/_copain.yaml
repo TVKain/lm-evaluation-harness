@@ -1,0 +1,19 @@
+group: copain
+
+task:
+  - even_integer_in_odd_group
+  - first_character_in_list
+  - last_character_in_list
+  - max_integer_in_list
+  - median_integer_in_list
+  - min_integer_in_list
+  - odd_integer_in_even_group
+
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true 
+
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean

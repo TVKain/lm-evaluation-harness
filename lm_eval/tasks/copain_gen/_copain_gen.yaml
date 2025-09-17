@@ -1,0 +1,13 @@
+group: copain_gen
+
+task:
+  - gen_even_integer_in_odd_group
+  - gen_first_character_in_list
+  - gen_last_character_in_list
+  - gen_max_integer_in_list
+  - gen_median_integer_in_list
+  - gen_min_integer_in_list
+  - gen_odd_integer_in_even_group
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
